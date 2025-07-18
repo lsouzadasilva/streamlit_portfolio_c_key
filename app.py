@@ -91,7 +91,7 @@ if st.session_state["authentication_status"]:
     
     with col3:
         st.markdown("""
-            <a href="https://www.linkedin.com/in/leandro-souza-bi" target="_blank">
+            <a href="https://www.linkedin.com/in//leandro-souza-dados" target="_blank">
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50" style="border-radius: 50%; padding: 5px; background-color: white; border: 2px solid #0A66C2;">
             </a>
             """, unsafe_allow_html=True)
