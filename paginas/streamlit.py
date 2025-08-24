@@ -55,5 +55,5 @@ def streamlit():
 
     with col18
         st.image(image_path_streamlit_pygwalker, caption="Analisando dados com PygWalker", width=200)
-        st.link_buton("Acesse",
+        st.link_button("Acesse",
                   "https://apprelatoriopygwalker.streamlit.app/")
