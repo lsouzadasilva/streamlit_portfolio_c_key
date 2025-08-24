@@ -8,6 +8,7 @@ def streamlit():
 
     image_path_plotly_strem = "image/stremlit_plotly_pandas.png"
     image_path_fifa = "image/stremlit_kaggle.png"
+    image_path_streamlit_pygwalker = "image/stremlit_plotly_pandas_pygwalker.png"
 
 
     # st.sidebar.markdown("**Informações de contato.**")
