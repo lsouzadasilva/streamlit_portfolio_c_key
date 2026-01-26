@@ -11,6 +11,10 @@ def certificados_skills():
     image_power_bi = "image/power_bi.png"
     image_banco_sql = "image/CG-85A6168D.png"
     image_algoritimos = "image/e6300370-de67-4e28-9ec3-2ac959ac7b01.png"
+    image_formacao_1 = "image/DiplomaDigital_1.PNG"
+    image_formacao_2 = "image/DiplomaDigital_2.PNG"
+    image_crewai = "image/crewai.png"
+    image_langchain = "image/langchain.png"
     
     st.header("Minhas Skills 🧠", divider=True)
     
@@ -35,8 +39,8 @@ def certificados_skills():
 
                 - 📥 **RAG (Retrieval-Augmented Generation)** Implementação da técnica RAG para integrar bases internas de conhecimento a modelos de IA como ChatOpenAI, permitindo que os assistentes virtuais acessem 
                         informações específicas e forneçam respostas mais personalizadas e assertivas.
-                
-                - 🧠 **Inteligência Artificial e IA Generativa:**  
+                        
+                - 🧠 **Inteligência Artificial e IA Generativa:**
                    * 🤖 Criação de agentes inteligentes e assistentes virtuais utilizando **ChatGPT**.  
                    * 🛠️ Desenvolvimento de bots de IA utilizando modelos gratuitos da **Hugging Face**.
                 """)
@@ -46,9 +50,34 @@ def certificados_skills():
     with col_space:
         st.markdown("<br><br><br>", unsafe_allow_html=True)
 
+    st.header("Formações 🎓", divider="blue")
+
+    col1, col2 = st.columns([1, 1], gap="medium")
+
+    with col1:
+        st.image(
+            image_formacao_1,
+            caption="Bacharel em Admnistração de Empresas - Universidade Pitágoras Unopar Anhanguera - 2026",
+            use_container_width=True
+        )
+        st.link_button(
+            "Acesse.",
+            "https://diplomas.somosb4.com.br/validar/298.298.427b20107331"
+        )
+
+    with col2:
+        st.image(
+            image_formacao_2,
+            use_container_width=True
+        )
+
+    com_space_1, = st.columns(1)
+
+    with com_space_1:
+        st.markdown("<br><br><br>", unsafe_allow_html=True)
     
     
-    st.header("Certificados 🎓", divider=True)
+    st.header("Certificações 🏅", divider="blue")
     
     
     
@@ -97,9 +126,19 @@ def certificados_skills():
         st.link_button("Acesse.",
                        "https://www.geekuniversity.com.br/certificado/CG-44C999E7")
     
-    col10, = st.columns(1)
+    col10, col11, col13 = st.columns(3)
     
     with col10:
         st.image(image_asimov, caption="Trilha Asimov - Aprendendo Python", width=200)
         st.link_button("Acesse.",
                        "https://hub.asimov.academy/validar-certificado/642fdb32-42c9-11ef-92e4-42010a80001b")
+        
+    with col11:
+        st.image(image_crewai, caption="Trilha Asimov - Multi-Agent Systems com CrewAI", width=200)
+        st.link_button("Acesse.",
+                       "https://hub.asimov.academy/validar-certificado/9f0e63b9-7cc7-40aa-bf4e-2606f7c6a8fe/")
+    
+    with col13:
+        st.image(image_langchain, caption="Trilha Asimov - Criação de Agents com LangChain", width=200)
+        st.link_button("Acesse.",
+                       "https://hub.asimov.academy/validar-certificado/642ff887-42c9-11ef-92e4-42010a80001b")
