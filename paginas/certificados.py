@@ -13,8 +13,8 @@ def certificados_skills():
     image_algoritimos = "image/e6300370-de67-4e28-9ec3-2ac959ac7b01.png"
     image_formacao_1 = "image/DiplomaDigital_1.PNG"
     image_formacao_2 = "image/DiplomaDigital_2.PNG"
-    image_crewai = "image/crewai.png"
-    image_langchain = "image/langchain.png"
+    image_crewai = "image/crewai.PNG"
+    image_langchain = "image/langchain.PNG"
     
     st.header("Minhas Skills 🧠", divider=True)
     
