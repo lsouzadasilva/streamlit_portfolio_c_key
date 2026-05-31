@@ -25,7 +25,7 @@ def bi():
     with col1:
         st.image(iamge_path_phone, caption="Análise de cobrança", width=300)
         st.link_button("Acesse",
-                    "https://app.powerbi.com/reportEmbed?reportId=ee62c9c1-2df8-448d-bc1e-f922a18848d8&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
+                    "https://app.powerbi.com/view?r=eyJrIjoiNWM2YWRkNmQtMDYzYS00MzI3LWFhNDMtNTZlYjAxNDVhNGU5IiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
         
     with col2:
         st.image(image_path_eletric, caption="Monitoramento Veiculos Eletricos", width=300)
